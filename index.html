@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>My Portfolio</title>
+		<link rel="stylesheet" href="./assets/index.css" />
+		<link rel="stylesheet" href="./assets/all.min.css" />
+		<link rel="stylesheet" href="./assets/reset.css" />
+		<script  src="./assets/script.js"></script>
+	</head>
+	<body>
+		<nav>
+			<h2 id="logo">Manuel Beeler</h2>
+			<ul class="navigation-items">
+				<li class="navigation-item"><a href="#about-me">About Me</a></li>
+				<li class="navigation-item"><a href="#projects">Projects</a></li>
+				<li class="navigation-item"><a href="#skills">Skills</a></li>
+				<li class="navigation-item"><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+
+		<main>
+			<section id="about-me">
+				<div class="about-me-container">
+					<div class="about-me-text-container">
+						<h2>About Me</h2>
+						<p>
+							Hi! I'm Manuel, a technology consultant with focus on technology
+							initiatives in tax & accounting departments. In my work, I combine
+							my experiance as tax consultant and auditor with my passion for
+							software development, innovation and technology.
+						</p>
+						<p>
+							I hold a Master's degree in Business Administration from
+							the University of Bern (Switzerland) and have more than 4 years of
+							work experience as a tax consultant and auditor at Big 4 accounting
+							firms. During this time, I was working on numerous client projects
+							- both, as a subject matter as well as project management expert.
+						</p>
+						<p>
+							When the whole world went into a lockdown in early 2020 due to the
+							Covid-19 pandemic, I decided to use this situation as an opportunity
+							to look into software development and IT systems. This decision was
+							on one hand motivated by my interest in solving complex problems, on
+							the other hand I also experienced during my professional work that
+							the alignment between functional and IT workstreams is one of the
+							most important and most challenging factors for the successful
+							completion of major tax and accounting projects.
+						</p>
+						<p>
+							After a year+ of self-studying, I enjoyed my new hobby so much that
+							I decided to join
+							<a href="https://hive.fi", target="_blank">Hive Helsinki</a>
+							(a project oriented coding school, which is part of the 42 school
+							network) in fall 2021. Since early 2022, I am working as a
+							technology consultant and as lead developer for SimDec (cf. project
+							section below) on my quest to bridge the gap between finance and IT.
+						</p>
+						<p>
+							Fun fact! I've been programing for
+							<span id="time-container">0</span> seconds!
+						</p>
+					</div>
+					<img
+						src="./assets/BeelerConsulting-logos/BeelerConsulting-logos_black.png"
+						alt="BeelerConsulting Logo"
+						class="portrait"
+					/>
+				</div>
+			</section>
+
+			<section id="projects">
+				<h2>Projects</h2>
+				<details class="project">
+					<summary class="project-title">
+						<h3>Technology Consulting</h3>
+					</summary>
+					<img
+						src="./assets/laptop.jpg"
+						alt="Laptop image"
+						class="project-image"
+					/>
+					<p class="project-description">
+						As a technology consultant, I supported clients on the following projects:
+						<ul class="project-list">
+							<li>
+								<i>Software implementation</i>: I managed the implementation of a new project management software
+								for an international client. My responsibilieties included project coordination, requirements
+								gathering, process re-design / standardization and development of a tool to add client specific
+								functionalities to the software.
+							</li>
+							<li>
+								<i>Process automatisation</i>: I created a report template for a client which gets populated
+								automatically based on relevant input factors.
+							</li>
+							<li>
+								<i>Data analytics</i>: Creation of a dashboard for a SME client. The dashboard collects data from
+								multiple data sources, analyses trends in the data and displays the trends as well as KPIs
+								to the user.
+							</li>
+						</ul>
+					</p>
+				</details>
+				<details class="project">
+					<summary class="project-title">
+						<h3>SimDec</h3>
+					</summary>
+					<img
+						src="./assets/SimDeclogo.gif"
+						class="project-image"
+					/>
+					<p class="project-description">
+						<a href="https://simdec.fi", target="_blank">SimDec</a> is a new generation sensitivity analysis solution.
+						SimDec provides unique, actionable insights into complex analytical models and therewith helps to make
+						more informed decisions. To see SimDec in action, visit our <a href="https:simdec.io", target="_blank">
+						electricity bill simulator</a> to figure out how you can efficiently reduce your electricity costs.
+					</p>
+					<p class="project-description">
+						SimDec currently runs pilot tests with potential clients with a VBA Excel add-in. Simultaniously, we are
+						developing an Excel web add-in which uses Microsoft's Office JavaScript API and which will be used for
+						commercial purposes. Finally, we are developing a cloud solution for SimDec, which can be integrated into
+						other tools through an API.
+					</p>
+					<p class="project-description">
+						As lead developer at SimDec, my responsibilities include:
+						<ul class="project-list">
+							<li>
+								shaping the commercial strategy of SimDec as part of the core management team;
+							</li>
+							<li>
+								the development and implementation of an IT strategy, which is in-line with SimDec's business
+								mission;
+							</li>
+							<li>
+								the development and management of SimDec tools; and
+							</li>
+							<li>
+								hiring and supervising the SimDec and external developer teams.
+							</li>
+						</ul>
+					</p>
+				</details>
+				<details class="project">
+					<summary class="project-title">
+						<h3>Stock market monitoring tool</h3>
+					</summary>
+					<img
+						src="./assets/stock-monitoring-tool-example.jpeg"
+						alt='Example screenshot of the stock monitoring tool"'
+						class="project-image"
+					/>
+					<p class="project-description">
+						The stock market monitoring tool is a webpage that allows users to display stock prices and selected
+						technical indicators for certain stocks. The webpage is built with Plotly / Dash for python. I also
+						created the functions to calculate the technical indicators in python. The source code for the webpage
+						can be found on my <a href="https://github.com/mbeeler90/finance_functions", target="_blank">GitHub</a>
+						page.
+					</p>
+				</details>
+				<details class="project">
+					<summary class="project-title">
+						<h3>Hive Helsinki</h3>
+					</summary>
+					<img
+						src="./assets/coding-image.jpg"
+						alt="Image of code example"
+						class="project-image"
+					/>
+					<p class="project-description">
+						<a href="https://hive.fi", target="_blank">Hive</a> is a new kind of coding school where students
+						exclusively focus on hands-on coding projects. Hive is part of the <a href="https://42.fr",
+						target="_blank">42 school network</a> and aims to prepare students to enter the job market as
+						software developers.
+					</p>
+					<p class="project-description">
+						The primary coding language, which is used at the school, is C. A key concept of 42 schools is
+						that students are not allowed to use any libraries or functions that they have not coded themselves.
+						This ensures that students obtain a sound understanding of coding basics such as memory management.
+						Other skill, which are required to successfully complete the projects, are - amongst others - command
+						line navigation, bash scripting, ability to develop algorithms / AI and a basic understanding of system
+						administartion.
+					</p>
+					<p class="project-description">
+						Visit my <a href="https://github.com/mbeeler90", target="_blank">GitHub repositories</a> for more details
+						about my Hive projects.
+					</p>
+				</details>
+			</section>
+
+			<section id="skills">
+				<h2>Skills</h2>
+				<div id="skills-container">
+					<i class="fab fa-python"></i>
+					<i class="fas fa-copyright"></i>
+					<i class="fab fa-html5"></i>
+					<i class="fab fa-css3-alt"></i>
+					<i class="fab fa-js"></i>
+					<i class="fab fa-node"></i>
+					<i class="fab fa-npm"></i>
+					<i class="fas fa-terminal"></i>
+					<i class="fab fa-linux"></i>
+					<i class="fab fa-git"></i>
+					<i class="fab fa-github"></i>
+					<i class="fab fa-chrome"></i>
+				</div>
+			</section>
+
+			<section id="contact">
+				<h2>Contact</h2>
+				<p>Do you have an interesting project? I would love to hear about it!</p>
+				<div>
+					<a href="https://www.linkedin.com/in/manuel-beeler", target="_blank"><i class="fab fa-linkedin icon"></i></a>
+					<a href="https://github.com/mbeeler90", target="_blank"><i class="fab fa-github icon"></i></a>
+					<a href="mailto:beelerconsulting@gmail.com", target="_blank"><i class="fas fa-envelope-square icon"></i></a>
+				</div>
+			</section>
+		</main>
+
+		<footer>Copyright © 2022 BeelerConsulting. All rights reserved.</footer>
+	</body>
+</html>
