@@ -8,4 +8,4 @@ This is the source code for my portfolio website.
 * [Font Awesome](https://fontawesome.com/)
 
 ## Demo
-You can visit the website by going [here](https://mbeeler90.github.io/).
+You can visit the website by going [here](https://beelerconsulting.tech/).
