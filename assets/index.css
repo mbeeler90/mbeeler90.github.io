@@ -112,7 +112,7 @@ section {
 
 a {
 	color: var(--font-color);
-	text-decoration: none;
+	text-decoration: underline;
 	font-weight: 600;
 }
 
